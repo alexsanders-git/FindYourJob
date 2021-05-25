@@ -1,7 +1,7 @@
 # FindYourJob
  Учебный проект Glo Academy
 
-##Используются технологии:
+## Используются технологии:
 - HTML
 - CSS
 - Bootstrap v5
