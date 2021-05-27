@@ -1,141 +1,304 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FindYourJob</title>
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header class="header pb-5">
-        <div class="container">
-            <div class="row align-items-center py-3">
-                <div class="col-2">
-                    <a href="#!" class="logo-link">
-                        <img src="img/logo.svg" alt="FindYourJob logo">
-                    </a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>FindYourJob</title>
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header class="header pb-5">
+            <div class="container">
+                <div class="row align-items-center py-3">
+                    <div class="col-2">
+                        <a href="#!" class="logo-link">
+                            <img src="img/logo.svg" alt="FindYourJob logo" />
+                        </a>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col d-flex justify-content-center">
+                        <nav class="nav">
+                            <ul class="menu d-flex">
+                                <li class="menu-item">
+                                    <a href="#!" class="menu-link">Главная</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#!" class="menu-link">Вакансии</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#!" class="menu-link">Компании</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-3 d-flex align-items-center justify-content-end">
+                        <a href="#!" class="button button-link">Войти</a>
+                        <a href="#!" class="button button-primary">Регистрация</a>
+                    </div>
+                    <!-- /.col -->
                 </div>
-                <!-- /.col -->
-                <div class="col d-flex justify-content-center">
-                    <nav class="nav">
-                        <ul class="menu d-flex">
-                            <li class="menu-item">
-                                <a href="#!" class="menu-link">Главная</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#!" class="menu-link">Вакансии</a>
-                            </li>
-                            <li class="menu-item">
-                                <a href="#!" class="menu-link">Компании</a>
-                            </li>
-                        </ul>
-                    </nav>
+                <!-- /.row -->
+                <div class="row pt-5">
+                    <div class="col-5">
+                        <h1 class="hero-title">Найдите удаленную работу вашей мечты</h1>
+                        <p class="hero-text">
+                            Создайте резюме или отправьте отклик на вакансию в&nbsp;компании с мировым именем и работайте <br />
+                            по свободному графику
+                        </p>
+                        <form action="#!" class="hero-form">
+                            <div class="input-group d-flex">
+                                <input type="text" class="input" placeholder="Начните поиск" />
+                                <button class="button button-primary">
+                                    <img src="img/search.svg" alt="search icon" class="button-icon" />
+                                    <span class="button-text">Искать вакансии</span>
+                                </button>
+                            </div>
+                            <!-- /.input-group -->
+                        </form>
+                        <div class="tags-group">
+                            <span class="tags-label">Например: </span>
+                            <a href="#!" class="tag">Front-end</a>
+                            <a href="#!" class="tag">Back-end</a>
+                            <a href="#!" class="tag">Designer</a>
+                        </div>
+                        <!-- /.tags-group -->
+                    </div>
+                    <!-- /.col-5 -->
+                    <div class="col-6 offset-1">
+                        <img src="img/hero-image.svg" alt="people with laptops" class="hero-image" />
+                    </div>
+                    <!-- /.col-6 offset-1 -->
                 </div>
-                <!-- /.col -->
-                <div class="col-3 d-flex align-items-center justify-content-end">
-                    <a href="#!" class="button button-link">Войти</a>
-                    <a href="#!" class="button button-primary">Регистрация</a>
-                </div>
-                <!-- /.col -->
+                <!-- /.row -->
             </div>
-            <!-- /.row -->
-            <div class="row pt-5">
-                <div class="col-5">
-                    <h1 class="hero-title">Найдите удаленную работу вашей мечты</h1>
-                    <p class="hero-text">
-                        Создайте резюме или отправьте отклик на вакансию в&nbsp;компании с мировым именем и работайте <br> по свободному графику
-                    </p>
+            <!-- /.container -->
+        </header>
+        <!-- /.header -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Категории</h2>
+                <div class="row">
+                    <div class="col-2">
+                        <a href="#!" class="card d-flex flex-column align-items-center">
+                            <svg class="card-icon">
+                                <use href="img/icons.svg#brush"></use>
+                            </svg>
+                            <span class="card-text">Дизайн</span>
+                        </a>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-2">
+                        <a href="#!" class="card d-flex flex-column align-items-center">
+                            <svg class="card-icon">
+                                <use href="img/icons.svg#browser"></use>
+                            </svg>
+                            <span class="card-text">Разработка</span>
+                        </a>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-2">
+                        <a href="#!" class="card d-flex flex-column align-items-center">
+                            <svg class="card-icon">
+                                <use href="img/icons.svg#edit"></use>
+                            </svg>
+                            <span class="card-text">Копирайтинг</span>
+                        </a>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-2">
+                        <a href="#!" class="card d-flex flex-column align-items-center">
+                            <svg class="card-icon">
+                                <use href="img/icons.svg#fingerprint"></use>
+                            </svg>
+                            <span class="card-text">Безопасность</span>
+                        </a>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-2">
+                        <a href="#!" class="card d-flex flex-column align-items-center">
+                            <svg class="card-icon">
+                                <use href="img/icons.svg#camera"></use>
+                            </svg>
+                            <span class="card-text">Видео</span>
+                        </a>
+                    </div>
+                    <!-- /.col -->
+                    <div class="col-2">
+                        <a href="#!" class="card d-flex flex-column align-items-center">
+                            <svg class="card-icon">
+                                <use href="img/icons.svg#school"></use>
+                            </svg>
+                            <span class="card-text">Образование</span>
+                        </a>
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.section -->
+        <section class="section offers">
+            <div class="container">
+                <h2 class="section-title">Свежие вакансии</h2>
+                <div class="offer d-flex align-items-center">
+                    <div class="offer-img"></div>
+                    <div class="offer-title">
+                        <h3 class="offer-heading">Front-end разработчик</h3>
+                        <span class="offer-place">Технопарк, Казань</span>
+                    </div>
+                    <!-- /.offer-title -->
+                    <span class="offer-salary">65 000 ₽</span>
+                    <div class="tags-group">
+                        <span class="tags-label">Требования:</span>
+                        <a href="#!" class="tag">React</a>
+                        <a href="#!" class="tag">Sass</a>
+                        <a href="#!" class="tag">Figma</a>
+                    </div>
+                    <!-- /.tags-group -->
+                    <a href="#!" class="offer-more">Подробнее →</a>
+                </div>
+                <!-- /.offer -->
+                <div class="offer d-flex align-items-center">
+                    <div class="offer-img"></div>
+                    <div class="offer-title">
+                        <h3 class="offer-heading">Front-end разработчик</h3>
+                        <span class="offer-place">Технопарк, Казань</span>
+                    </div>
+                    <!-- /.offer-title -->
+                    <span class="offer-salary">65 000 ₽</span>
+                    <div class="tags-group">
+                        <span class="tags-label">Требования:</span>
+                        <a href="#!" class="tag">React</a>
+                        <a href="#!" class="tag">Sass</a>
+                        <a href="#!" class="tag">Figma</a>
+                    </div>
+                    <!-- /.tags-group -->
+                    <a href="#!" class="offer-more">Подробнее →</a>
+                </div>
+                <!-- /.offer -->
+                <div class="offer d-flex align-items-center">
+                    <div class="offer-img"></div>
+                    <div class="offer-title">
+                        <h3 class="offer-heading">Front-end разработчик</h3>
+                        <span class="offer-place">Технопарк, Казань</span>
+                    </div>
+                    <!-- /.offer-title -->
+                    <span class="offer-salary">65 000 ₽</span>
+                    <div class="tags-group">
+                        <span class="tags-label">Требования:</span>
+                        <a href="#!" class="tag">React</a>
+                        <a href="#!" class="tag">Sass</a>
+                        <a href="#!" class="tag">Figma</a>
+                    </div>
+                    <!-- /.tags-group -->
+                    <a href="#!" class="offer-more">Подробнее →</a>
+                </div>
+                <!-- /.offer -->
+                <div class="offer d-flex align-items-center">
+                    <div class="offer-img"></div>
+                    <div class="offer-title">
+                        <h3 class="offer-heading">Front-end разработчик</h3>
+                        <span class="offer-place">Технопарк, Казань</span>
+                    </div>
+                    <!-- /.offer-title -->
+                    <span class="offer-salary">65 000 ₽</span>
+                    <div class="tags-group">
+                        <span class="tags-label">Требования:</span>
+                        <a href="#!" class="tag">React</a>
+                        <a href="#!" class="tag">Sass</a>
+                        <a href="#!" class="tag">Figma</a>
+                    </div>
+                    <!-- /.tags-group -->
+                    <a href="#!" class="offer-more">Подробнее →</a>
+                </div>
+                <!-- /.offer -->
+                <div class="offer-button d-flex justify-content-center">
+                    <button type="submit" class="button button-primary">Больше вакансий</button>
+                </div>
+                <!-- /.offer-button -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.section offers -->
+        <section class="section subscribe">
+            <div class="container">
+                <form class="subscribe-form">
+                    <h2 class="subscribe-title">Подпишитесь на рассылку с новыми вакансиями</h2>
+                    <p class="subscribe-subtitle">Мы отправляем по одному письму в&nbsp;неделю с&nbsp;подходящими вам вакансиями</p>
                     <div class="input-group d-flex">
-                        <input type="text" class="input" placeholder="Начните поиск">
+                        <input type="text" class="input" placeholder="E-mail" />
                         <button class="button button-primary">
-                            <img src="img/search.svg" alt="search icon" class="button-icon">
-                            <span class="button-text">Искать вакансии</span>
+                            <img src="img/letter.svg" alt="letter icon" class="button-icon" />
+                            <span class="button-text">Подписаться</span>
                         </button>
                     </div>
                     <!-- /.input-group -->
-                    <div class="tags-group">
-                        <span class="tags-label">Например: </span>
-                        <a href="#!" class="tag">Front-end</a>
-                        <a href="#!" class="tag">Back-end</a>
-                        <a href="#!" class="tag">Designer</a>
+                </form>
+                <!-- /.subscribe-form -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /.section subscribe -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="img/logo.svg" alt="FindYourJob logo" class="footer-logo" />
+                        <p class="footer-description">Сайт с вакансиями для тех, кто ищет удаленную работу</p>
+                        <span class="footer-copy">&copy; 2021</span>
                     </div>
-                    <!-- /.tags-group -->
+                    <!-- /.col-3 -->
+                    <div class="col-3">
+                        <h3 class="footer-title">Свяжитесь с нами</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="tel:+788002020300" class="footer-list-link">8 800 20 20 300</a>
+                            </li>
+                            <li class="footer-list-item">
+                                <a href="mailto:info@findyourjob.net" class="footer-list-link">info@findyourjob.net</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-3 -->
+                    <div class="col-3">
+                        <h3 class="footer-title">Информация</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#!" class="footer-list-link">Обработка данных</a>
+                            </li>
+                            <li class="footer-list-item">
+                                <a href="#!" class="footer-list-link">Конфиденциальность</a>
+                            </li>
+                            <li class="footer-list-item">
+                                <a href="#!" class="footer-list-link">Конфиденциальность</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-3 -->
+                    <div class="col-3">
+                        <h3 class="footer-title">Навигация по сайту</h3>
+                        <ul class="footer-list">
+                            <li class="footer-list-item">
+                                <a href="#!" class="footer-list-link">Вакансии</a>
+                            </li>
+                            <li class="footer-list-item">
+                                <a href="#!" class="footer-list-link">Компании</a>
+                            </li>
+                            <li class="footer-list-item">
+                                <a href="#!" class="footer-list-link">Контакты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- /.col-3 -->
                 </div>
-                <!-- /.col-5 -->
-                <div class="col-6 offset-1">
-                    <img src="img/hero-image.svg" alt="people with laptops" class="hero-image">
-                </div>
-                <!-- /.col-6 offset-1 -->
+                <!-- /.row -->
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </header>
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Категории</h2>
-            <div class="row">
-                <div class="col">
-                    <a href="#!" class="card d-flex flex-column align-items-center">
-                        <svg class="card-icon">
-                            <use href="img/icons.svg#brush"></use>
-                        </svg>
-                        <span class="card-text">Дизайн</span>
-                    </a>
-                </div>
-                <!-- /.col -->
-                <div class="col">
-                    <a href="#!" class="card d-flex flex-column align-items-center">
-                        <svg class="card-icon">
-                            <use href="img/icons.svg#browser"></use>
-                        </svg>
-                        <span class="card-text">Разработка</span>
-                    </a>
-                </div>
-                <!-- /.col -->
-                <div class="col">
-                    <a href="#!" class="card d-flex flex-column align-items-center">
-                        <svg class="card-icon">
-                            <use href="img/icons.svg#edit"></use>
-                        </svg>
-                        <span class="card-text">Копирайтинг</span>
-                    </a>
-                </div>
-                <!-- /.col -->
-                <div class="col">
-                    <a href="#!" class="card d-flex flex-column align-items-center">
-                        <svg class="card-icon">
-                            <use href="img/icons.svg#fingerprint"></use>
-                        </svg>
-                        <span class="card-text">Безопасность</span>
-                    </a>
-                </div>
-                <!-- /.col -->
-                <div class="col">
-                    <a href="#!" class="card d-flex flex-column align-items-center">
-                        <svg class="card-icon">
-                            <use href="img/icons.svg#camera"></use>
-                        </svg>
-                        <span class="card-text">Видео</span>
-                    </a>
-                </div>
-                <!-- /.col -->
-                <div class="col">
-                    <a href="#!" class="card d-flex flex-column align-items-center">
-                        <svg class="card-icon">
-                            <use href="img/icons.svg#school"></use>
-                        </svg>
-                        <span class="card-text">Образование</span>
-                    </a>
-                </div>
-                <!-- /.col -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-    </section>
-    <!-- /.section -->
-</body>
+            <!-- /.container -->
+        </footer>
+        <!-- /.footer -->
+    </body>
 </html>
