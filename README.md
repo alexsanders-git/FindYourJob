@@ -1,7 +1,7 @@
 ## :pushpin: FindYourJob
-#### :memo: Описание: 
+#### :memo: Опис: 
 
-Учебный проект [Glo Academy](https://glo.academy/)
+Навчальний проект від [Glo Academy](https://glo.academy/)
 ___
 
 #### :link: Live Demo: 
